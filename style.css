@@ -20,6 +20,7 @@ h2 {
 
 }
 
+
 .section {
     background-color: white;
     box-shadow: 1px 1px 1px rgb(138, 138, 138);
@@ -30,6 +31,14 @@ h2 {
     margin-bottom: 2em;
     margin-left: 5em;
     margin-right: 5em;
+}
+
+/* hover a */
+
+a:hover {
+    color: #dd5555;
+    background-color: white;
+    border: 1px solid #dd5555;
 }
 
 /* SECTION TOP */
@@ -57,3 +66,70 @@ h2 {
     text-align: justify;
 }
 
+/* link's div */
+
+.section-top__container-bot {
+    padding-bottom: 1.6em;
+}
+
+/* link */
+
+.button-class {
+    background-color: #dd5555;
+    color: white;
+    text-decoration: none;
+    padding: 0.7em;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* SECTION MAIN */
+
+.section-main {
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* list */
+
+.section-main__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0em;
+}
+
+.section-main__list__item {
+    margin-right: 1.3em;
+    
+}
+
+/* link */
+
+.selection-main__list__item__link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    color: #cccccc;
+        
+
+}
+
+/* icones */
+
+.fa {
+    margin-bottom: 0.5em;
+}
+
+.fa::before {
+ font-size: 1.5em;
+ 
+}
+
+.selection-main__list__item__link:hover {
+    color: inherit;
+    border: inherit;
+}
