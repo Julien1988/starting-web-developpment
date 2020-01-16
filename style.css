@@ -1,0 +1,59 @@
+/* GENERAL */
+
+body {
+    background-color: #ebebeb;
+    /* Text color */
+    color: #7d7d81;
+    /* Text font */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #dd5555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.section {
+    background-color: white;
+    box-shadow: 1px 1px 1px rgb(138, 138, 138);
+
+    border-radius: 3px;
+
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+/* SECTION TOP */
+
+.section-top {
+    text-align: center;
+}
+
+/* image profile */
+
+.section-top__container-top__image {
+    max-width: 20%;
+    border-radius: 50%;
+    border: 3px solid #c2c2c2;
+
+    margin-top: 2em;
+}
+
+/* text */
+
+.section-top__container-mid__text {
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
