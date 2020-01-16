@@ -133,3 +133,39 @@ a:hover {
     color: inherit;
     border: inherit;
 }
+
+/* SECTION BOT */
+
+.section-bot {
+    padding: 2em;
+    text-align: center;
+}
+
+/* title */
+
+.section-bot__title {
+    margin-bottom: 2em;
+}
+
+.section-bot__title__span {
+    background-color: #cccccc;
+}
+
+/* image */
+
+td>img {
+    width: 5em;
+    margin-right: 1.5em;
+}
+
+/* movie's title */
+
+th {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+td {
+    text-align: justify;
+    padding-bottom: 3em;
+}
